@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48945" started-at="2019-09-24T15:37:42Z" finished-at="2019-09-24T15:38:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25584" started-at="2019-09-24T15:37:42Z" finished-at="2019-09-24T15:38:08Z">
+      <class name="com.e2eproject.QA.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.e2eproject.QA.HomePage@49e5f737]" name="initialize" is-config="true" duration-ms="4672" started-at="2019-09-24T08:37:42Z" finished-at="2019-09-24T08:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.e2eproject.QA.HomePage@49e5f737]" name="basePageNavigation" duration-ms="12850" started-at="2019-09-24T08:37:47Z" data-provider="getData" finished-at="2019-09-24T08:38:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restrcited User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.e2eproject.QA.HomePage@49e5f737]" name="basePageNavigation" duration-ms="6703" started-at="2019-09-24T08:38:00Z" data-provider="getData" finished-at="2019-09-24T08:38:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.e2eproject.QA.HomePage@49e5f737]" name="teardown" is-config="true" duration-ms="1340" started-at="2019-09-24T08:38:07Z" finished-at="2019-09-24T08:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.e2eproject.QA.HomePage -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="11533" started-at="2019-09-24T15:38:08Z" finished-at="2019-09-24T15:38:19Z">
+      <class name="com.e2eproject.QA.validateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.e2eproject.QA.validateTitle@2638011]" name="initialize" is-config="true" duration-ms="10215" started-at="2019-09-24T08:38:08Z" finished-at="2019-09-24T08:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:com.e2eproject.QA.validateTitle@2638011]" name="validateAppTitle" duration-ms="38" started-at="2019-09-24T08:38:18Z" finished-at="2019-09-24T08:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.e2eproject.QA.validateTitle@2638011]" name="teardown" is-config="true" duration-ms="1276" started-at="2019-09-24T08:38:18Z" finished-at="2019-09-24T08:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.e2eproject.QA.validateTitle -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="11778" started-at="2019-09-24T15:38:19Z" finished-at="2019-09-24T15:38:31Z">
+      <class name="com.e2eproject.QA.validateNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.e2eproject.QA.validateNavigationBar@175b9425]" name="initialize" is-config="true" duration-ms="10371" started-at="2019-09-24T08:38:19Z" finished-at="2019-09-24T08:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppNavBar()[pri:0, instance:com.e2eproject.QA.validateNavigationBar@175b9425]" name="validateAppNavBar" duration-ms="125" started-at="2019-09-24T08:38:30Z" finished-at="2019-09-24T08:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppNavBar -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.e2eproject.QA.validateNavigationBar@175b9425]" name="teardown" is-config="true" duration-ms="1280" started-at="2019-09-24T08:38:30Z" finished-at="2019-09-24T08:38:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.e2eproject.QA.validateNavigationBar -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

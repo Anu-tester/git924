@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+     
+        
+         <listener class-name="com.e2eproject.QA.listeners"/>
+         <listener class-name="resources.ExtentReporterNG"/>
+         
+
+ </listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.e2eproject.QA.HomePage"/>
+   
+    </classes>
+  </test> <!-- Regression -->
+   <test name="Test1">
+    <classes>
+  
+      <class name="com.e2eproject.QA.validateTitle"/>
+      
+    </classes>
+  </test> <!-- sanity -->
+   <test name="Test2">
+    <classes>
+     
+      <class name="com.e2eproject.QA.validateNavigationBar"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
